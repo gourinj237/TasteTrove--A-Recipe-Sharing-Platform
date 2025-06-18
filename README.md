@@ -1,1 +1,1 @@
-# TasteTrove-A-Recipe-Sharing-Platform
+# TastyTrove-A-Recipe-Sharing-Platform
