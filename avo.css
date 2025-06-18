@@ -1,0 +1,62 @@
+body{
+    background-color: #fdfaf6;
+    background-image: url('https://www.thespruceeats.com/thmb/J6UgyxYr0uZcgPIYmq329LJ8hg8=/3233x2155/filters:fill(auto,1)/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    box-shadow: 0px 0px 10px rgb(150, 135, 135);
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-left: 300px;
+    width: 900px;
+    padding: 20px;
+    background-color: white;
+}
+
+p,li,a{
+    font-family: Edu SA Hand;
+}
+
+.p1,.p4{
+font-weight: bold;
+ color:#5c4a3d ;
+}
+
+.p1{
+    font-size: 30px;
+}
+
+a{
+    font-size: 20px;
+    color: blue;
+}
+
+.p1{
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    color:#5c4a3d ;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color:#d7a76c ;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.back{
+    display: inline;
+    margin-left: 600px;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+}

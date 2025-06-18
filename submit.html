@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submit Your Recipe</title>
+       <link rel="stylesheet" href="submit.css">
+       <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Submit Your Recipe</h1>
+        <form id="recipeForm">
+            <label for="recipeName">Recipe Name*</label>
+            <input type="text">
+
+            <label for="author">Your Name</label>
+            <input type="text"> 
+            
+            <label for="Category">Category</label><br>
+            <select name="category" id="category">
+                <option>Breakfast</option>
+                <option value="">Snacks & Fast Foods</option>
+                <option value="">Desserts</option>
+                <option value="">Drinks</option>
+            </select> 
+            
+            <label for="ingredients">Ingredients*</label>
+            <textarea name="ingredients" id="ingredients" rows="5" required></textarea>
+
+             <label for="instructions">Instructions*</label>
+            <textarea name="instructions" id="instructions" rows="8" required></textarea>
+
+            <label for="time">Estimated Time(mins)</label>
+            <input type="number">
+
+            <label for="image">Upload an Image</label>
+            <input type="file">
+
+            <button type="submit" onclick="SubmitRecipe()">Submit Recipe</button>
+    <p class="success-message" id="successMessage">Recipe submitted successfully!</p>
+        </form>
+
+    <script>
+
+    function SubmitRecipe()
+    {
+        alert("Recipe Submitted Successfully");
+    }
+  </script>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+body{
+    background-color: #fdfaf6;
+}
+
+.p3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Edu SA Hand;
+    font-weight: bold;
+    color: #5c4a3d ;
+}
+
+.a1{
+    margin-left: 500px;
+    margin-right: 10px;
+    background-color: #72a068;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Edu SA Hand;
+    font-weight: bold;
+}
+
+.a1 a,.a2 a,.a3 a,.a4 a,.a5 a{
+    color: white;
+    text-decoration: none;
+}
+
+.a2,.a3,.a4,.a5{
+    margin-right: 10px;
+    background-color: #a5c29f;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+     font-family: Edu SA Hand;
+     font-weight: bold;
+}
+
+input{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 650px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(132, 115, 115);
+}
+
+.d1{
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    padding-left: px;
+    width: 429px;
+    margin-left: 58px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.d1:hover{
+    transform: translateY(-5px);
+}
+
+img{
+     width: 429px;
+     border-radius: 8px;
+     height: 30vh;
+     margin-bottom: 5px;
+}
+
+.p1{
+    font-size: 20px;
+    font-family: Edu SA Hand ;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.p2{
+    font-family: Edu SA Hand ;
+    margin-bottom: 8px;
+    margin-top: 6px;
+}
+
+ button{
+   padding: 10px;
+   margin-bottom: 8px;
+   border: none;
+   background-color: #d7a76c;
+   border-radius: 25px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.bf{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Edu SA Hand;
+    font-weight: bold;
+    color: #5c4a3d;
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
